@@ -17,10 +17,6 @@ public class Anagram {
 			}
 		}
 				
-			
-			
-		
-		
 		if(b==true)
 			System.out.println("Anagram");
 		else
