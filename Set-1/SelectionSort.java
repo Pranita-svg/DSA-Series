@@ -2,7 +2,7 @@ import java.util.*;
 
 public class selectionsort{
 static void ss(int a[])
-  { for(int i=0;i<a.length;i++){
+  { for(int i=0;i<a.length-1;i++){
   int min=i;
   for(int j=i+1;j<a.length;j++)
     if(a[j]<a[min])
